@@ -1,4 +1,4 @@
-# DE3NURBS
+# DE3D-NURBS path planner
 
 Welcome to the DE3D-NURBS repository. 
 This project is maintained by Elias Freitas
