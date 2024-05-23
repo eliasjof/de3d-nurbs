@@ -1,7 +1,7 @@
 # DE3NURBS
 
 Welcome to the DE3D-NURBS repository. 
-This project is developed by Elias Freitas
+This project is maintained by Elias Freitas
 
 
 
@@ -15,6 +15,7 @@ This project is developed by Elias Freitas
   - [Installation](#installation)
   - [Usage](#usage)
     - [Examples](#examples)
+    - [Sample result](#sample-result)
   - [Folder Structure](#folder-structure)
 
 ## Introduction
@@ -24,9 +25,9 @@ For more details, see the reference paper.
 
 ### Cite us
 
+DE3D-NURBS: A Differential Evolution-based 3D Path-Planner integrating Kinematic Constraints and Obstacle Avoidance
 
 ## Features
-
 - Generate paths represented by NURBS curves in 3D space
 - Novel LSHADE-COP algorithm
   
@@ -65,15 +66,23 @@ To run an example script, navigate to the [`examples`](examples/) folder and exe
 
 ```sh
 python examples/run_algorithms.py 
+python examples/plot_scenario.py 
 ```
 
 If SAVE=1 (in [`examples/__experiment_setup.py`](examples/__experiment_setup.py)), the results of the path planning will be saved in the folder [`results/`](results/).
 
+### Sample result
+Scenario 5:
+![`Scenario 5`](results/scenario5.png)
 
 ## Folder Structure
 
 - [`examples/run_algorithms.py`](examples/run_algorithms.py): A complete script to run six optimization algorithms with our planner.
+- [`examples/plot_scenario.py`](examples/plot_scenario.py): A plotting script to visualize the results.
 - [`scripts/`](scripts/): This folder contains the code used for our planner and the LSHADE-COP algorithm.
 - [`results/`](results/): This folder contains the results obtained by the path-planner
+
+
+
 
 

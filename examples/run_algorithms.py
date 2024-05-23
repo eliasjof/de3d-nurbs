@@ -1,5 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Example to run our planner with differents optimization algorithms
+
+Author: Elias J R Freitas
+Date Created: 2023
+Python Version: >3.8
+
+Usage:
+- Select the algoirthm in the "list_algorithms"
+
+"""
 
 import sys
 import os
