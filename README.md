@@ -21,11 +21,11 @@ This project is maintained by Elias Freitas
 ## Introduction
 
 DE3D-NURBS is a Python-based tool for a novel path planner, considering kinematics constraints, such as the maximum and minimum climb/dive angle and the maximum curvature imposed by an aerial robot.
-For more details, see the reference paper.
+For more details, please take a look at the reference paper.
 
 ### Cite us
 
-DE3D-NURBS: A Differential Evolution-based 3D Path-Planner integrating Kinematic Constraints and Obstacle Avoidance
+FREITAS, ELIAS J.R.; COHEN, MIRI WEISS ; NETO, ARMANDO ; GUIMARÃES, FREDERICO GADELHA ; PIMENTA, LUCIANO C.A. . DE3D-NURBS: A differential evolution-based 3D path-planner integrating kinematic constraints and obstacle avoidance. KNOWLEDGE-BASED SYSTEMS, v. 1, p. 112084, 2024. DOI: http://dx.doi.org/10.1016/j.knosys.2024.112084
 
 ## Features
 - Generate paths represented by NURBS curves in 3D space
