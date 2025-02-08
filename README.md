@@ -82,6 +82,8 @@ Scenario 5:
 - [`scripts/`](scripts/): This folder contains the code used for our planner and the LSHADE-COP algorithm.
 - [`results/`](results/): This folder contains the results obtained by the path-planner
 
+## Info
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eliasjof/de3d-nurbs&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visits&edge_flat=false)](https://github.com/eliasjof/de3d-nurbs)
 
 
 
